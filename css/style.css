@@ -1,0 +1,20 @@
+ul#ulPost {
+    margin-top: 10px;
+    list-style: none;
+    display: block;
+}
+div#loading {
+
+    text-align: center;
+}
+img#imgLoad {
+    padding: 20px;
+    width: 100px;
+}
+th:hover{
+    cursor: pointer;
+}
+#search{
+    display: none;
+    text-align: end;
+}
