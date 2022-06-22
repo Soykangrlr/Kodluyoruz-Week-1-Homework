@@ -82,7 +82,7 @@ const renderUsers = (users = []) => {
     })
 
 
-    //Sıralam işlemleri için gerekli kodlar
+    //Sıralama işlemleri için gerekli kodlar
     document.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
         let tdArray = []
         const tdDom = document.querySelectorAll('td')
@@ -97,7 +97,7 @@ const renderUsers = (users = []) => {
             }
 
         })
-        //push işlemi tamamalandıktan sonra tıklana th'ye göre numer sıralama veya strin sıralama yaptım
+        //push işlemi tamamalandıktan sonra tıklana th'ye göre number sıralama veya strin sıralama yaptım
         //Bundan dolayı tekrar sorgulattım
         if (th.cellIndex == 0 || th.cellIndex == 1) {
             //Eğer ilk değer ,2. değerden küçükse(Büyükten küçüğe Sıralandı)
